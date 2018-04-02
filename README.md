@@ -77,4 +77,4 @@ personal.newAccount()
 - When your node is completely synced with the testnet, you can check your balance
 ```
 > eth.getBalance(eth.accounts[0])
-``
+```
