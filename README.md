@@ -10,15 +10,18 @@ What things you need to install the software and how to install them
     
 #### Mac OSX
 
-``` $ npm install -g ethereumjs-testrpc
+```
+$ npm install -g ethereumjs-testrpc
 ```
 *testrpc* has to be run in a new terminal and leave it running while develop
-``` $ testrpc
+```
+$ testrpc
 ```
 
 ### Creating a new contract:
 
-```$ truffle create contract *ContractName*
+```
+$ truffle create contract *ContractName*
 ```
 When a new contract is developed, a new migrations file has to be generated and after that it has to be run the following for deploying the contract.
 ```
@@ -53,16 +56,11 @@ we can also store other documents and they are recorded too
 poe.notarize('some other document');
 poe.checkDocument('some other document')
 ```
+### Testing a contract
 
+After developing a contract, it can be tested in a testnet or deployed to the eth net. To do that, a client has to be used, for example *Geth*.
 
-### Developing and testing a contract
-testrpc
-
-### Installing Geth
-
-After developing a contract, it can be tested in a testnet or deployed to the eth net.
-
-For deploying to a testnet:
+### Deploying to a testnet with Geth:
 
 1. Install a client. i.e. [Geth](https://github.com/ethereum/go-ethereum/wiki/Building-Ethereum)
 2. Run geth in a testnet mode.
